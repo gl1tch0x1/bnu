@@ -1,0 +1,22 @@
+<html>
+<head>
+<title> Count Form Elements </title>
+<script type = "text/javascript">
+	function countFormElements(){
+alert("The number of Elements are: " + document.MyForm.length);
+		}
+</script>
+	</head>
+<h1 align = center> COUNTING FORM ELEMENT </h1>
+<hr>
+	<form name = "MyForm" align = left>
+Name: <input type = "text"/> <br> <br>
+Password: <input type = "password"/> <br> <br>
+Sex: <input type = "radio" name = gender />Male
+	<input type = "radio" name = gender /> Female <br> <br>
+Address: <input type "text" /> <br> <br>
+News Letter: <input type = "checkbox" checked = "checked"/> <br> <br>
+<input type = "button" value = "Send Message" onclick="countFormElements()"/>
+</form>
+</body>
+</html>
