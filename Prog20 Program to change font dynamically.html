@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Dynamic font changes </title>
+        <script type = "text/javascript">
+            function ntest()
+            {
+                var parafont = document.getElementById("para").style;
+                parafont.font ="bold 25pt Times";
+            }
+            function makesmallfont()
+            {
+                var parafont=document.getElementById ("para").style;
+                parafont.font="normal 8pt Times";
+            }
+        </script>
+    </head>
+    <body>
+        <p id ="para" on mouseover="test()"
+        onmouseout="makesmallfont()">
+        Web programming by me
+        </p>
+        </body>
+</html>
